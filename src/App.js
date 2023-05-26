@@ -21,7 +21,9 @@ export const App = () => {
         onChange={(e) => setLastName(e.target.value)}
       />
       <br />
-      <button onClick={() => alert("Hello " + firstName + ' ' + lastName + '!')}>GREET ME</button>
+      <button onClick={() => alert("Hello " + firstName + ' ' + lastName + '😀' + '!')}>GREET ME</button>
+      
+
     </div>
   );
 };
