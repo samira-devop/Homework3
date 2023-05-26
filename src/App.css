@@ -1,4 +1,5 @@
 .App {
+  margin: 60px;
   text-align: center;
   
 }
@@ -6,10 +7,10 @@ button {
   margin-top: 10px;
   background-color: red;
   color: white;
-  padding-left:  37px;
-  padding-right: 37px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-left:  45px;
+  padding-right: 45px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   text-shadow: 5px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
@@ -18,17 +19,20 @@ button {
   border-bottom: 3px;
  border: none;
   cursor: pointer;
-  box-shadow: gray;
+  box-shadow: 0px 10px 0px rgb(150, 28, 28);
 }
 input{
+  padding: 5px;
+  margin: 5px; 
   border-radius: 5px;
   border-color: lightgray;
+  font-weight:bold ;
 }
 button:hover {
-  background-color: rgb(143, 4, 4);
+  background-color: rgb(199, 20, 20);
 }
 button:active {
  transform: translateY(7px);
- box-shadow: gray;
+ box-shadow: 0px 5px 0px rgb(67, 17, 17);
  
 }
